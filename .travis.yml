@@ -25,7 +25,7 @@ install:
   - c
 
 script:
-  - mvn clean pacakge
+  - mvn clean package
 
 
 before_deploy:
