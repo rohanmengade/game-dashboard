@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Game Dashboard</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css"
+          rel="stylesheet"/>
+</head>
+<body>
+<div class="container">
+    <hr class="empty-table"/>
+    <h1>Upload Game Statics Data</h1>
+    <hr class="soften"/>
+    <hr class="arrow-button"/>
+    <form action="/" enctype="multipart/form-data" method="POST" name="uploadingForm">
+        <div class="row">
+            <div class="span6">
+                <h2>Inputs:</h2>
+                <input id="fileInput" multiple name="uploadingFiles" type="file">
+                <button class="btn btn-primary" type="submit">Upload files</button>
+            </div>
+        </div>
+        <hr class="soften"/>
+    </form>
+</div>
+</body>
+</html>

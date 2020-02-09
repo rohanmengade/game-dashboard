@@ -7,7 +7,7 @@ services:
 
 env:
   global:
-    - IMAGE_NAME=rohanmangade/game-dashboard
+    - IMAGE_NAME=rohanmengade/game-dashboard
 
 language: java
 
@@ -22,10 +22,10 @@ os:
   - linux
 
 install:
-  - mvn -B clean package
+  - mvn clean install
 
 script:
-  - mvn test
+  - mvn clean package
 
 
 before_deploy:
@@ -37,19 +37,22 @@ before_deploy:
   - if [[ $TRAVIS_TAG ]]; then export IMAGE_TAG=$TRAVIS_TAG; fi
   - docker build -t "$IMAGE_NAME" .
   - docker tag "$IMAGE_NAME" "$IMAGE_NAME:$IMAGE_TAG"
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - echo "$DOCKER_PASSWORD" | docker login docker.io -u "$DOCKER_USERNAME" --password-stdin
 
 
 deploy:
   # create docker image for develop or release branches
   - provider: script
+    skip_cleanup: true
     script: docker push "${IMAGE_NAME}:${IMAGE_TAG}"
     on:
       all_branches: true
-      condition: $TRAVIS_BRANCH =~ ^develop|release.*|hotfix.*
+      condition: $TRAVIS_BRANCH =~ ^develop|master.*
   # create docker image for tags
   - provider: script
+    skip_cleanup: true
     script: docker push "${IMAGE_NAME}:${IMAGE_TAG}"
     on:
       tags: true
+
 

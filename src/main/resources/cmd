@@ -1,0 +1,11 @@
+docker run -d --name sonarqube -p 9000:9000 sonarqube
+
+docker run -d -p 3000:3000 grafana/grafana
+
+
+grafana-cli plugins install grafana-piechart-panel
+
+
+mvn clean package
+
+mvn sonar:sonar
