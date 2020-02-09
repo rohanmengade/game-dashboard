@@ -20,7 +20,7 @@ mvn clean package
 ```
 #### Build Docker Image 
 ```
-docker build -t lendico/game-dashboard:tagName .
+docker build -t rohan/game-dashboard:tagName .
 ```
 
 ### Run with Intellij Idea
