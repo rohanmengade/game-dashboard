@@ -22,10 +22,10 @@ os:
   - linux
 
 install:
-  - mvn -B clean package
+  - c
 
 script:
-  - mvn test
+  - mvn clean pacakge
 
 
 before_deploy:

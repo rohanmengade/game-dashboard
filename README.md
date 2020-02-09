@@ -29,5 +29,5 @@ docker build -t rohan/game-dashboard:tagName .
 - Build Project
 - Download Envfile plugin (Preferences -> Plugins -> search for "envfile")
 - Add Spring Boot Run Configuration
-- Run/Debug Configurations -> EnvFile -> Click on + -> Add default.env file which is located on / folder
+- Run/Debug Configurations -> EnvFile -> Click on + -> Add default.env file which is located on prospect-forwarder/ folder
 - Run Game Dashboard app 
