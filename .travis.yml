@@ -22,7 +22,7 @@ os:
   - linux
 
 install:
-  - c
+  - mvn clean install
 
 script:
   - mvn clean package
