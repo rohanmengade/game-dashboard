@@ -7,7 +7,7 @@ services:
 
 env:
   global:
-    - IMAGE_NAME=rohanmangade/game-dashboard
+    - IMAGE_NAME=rohanmengade/game-dashboard
 
 language: java
 
