@@ -37,7 +37,7 @@ before_deploy:
   - if [[ $TRAVIS_TAG ]]; then export IMAGE_TAG=$TRAVIS_TAG; fi
   - docker build -t "$IMAGE_NAME" .
   - docker tag "$IMAGE_NAME" "$IMAGE_NAME:$IMAGE_TAG"
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  - echo "$DOCKER_PASSWORD" | docker login docker.io -u "$DOCKER_USERNAME" --password-stdin
 
 
 deploy:
