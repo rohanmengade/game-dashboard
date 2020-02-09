@@ -43,13 +43,16 @@ before_deploy:
 deploy:
   # create docker image for develop or release branches
   - provider: script
+    skip_cleanup: true
     script: docker push "${IMAGE_NAME}:${IMAGE_TAG}"
     on:
       all_branches: true
       condition: $TRAVIS_BRANCH =~ ^develop|master.*
   # create docker image for tags
   - provider: script
+    skip_cleanup: true
     script: docker push "${IMAGE_NAME}:${IMAGE_TAG}"
     on:
       tags: true
+
 
