@@ -1,6 +1,5 @@
-# Game Dashboard
-
-
+# Game Dashboard For Competitor Analysis
+###################################################################################
 ### Prerequisites
 - Java 11
 - mysql 5.7
@@ -11,7 +10,6 @@
 - Travis-CI
 - Docker
 - Junit5
-
 
 ### Build
 #### Build Prospect-Forwarder-App jar
@@ -31,3 +29,8 @@ docker build -t rohan/game-dashboard:tagName .
 - Add Spring Boot Run Configuration
 - Run/Debug Configurations -> EnvFile -> Click on + -> Add default.env file which is located on prospect-forwarder/ folder
 - Run Game Dashboard app 
+#############################################################################################################################
+
+1. UML (at least 3 diagrams)
+
+
