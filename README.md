@@ -12,8 +12,8 @@
 3. Clean Code Development
 https://github.com/rohanmengade/game-dashboard/wiki/Clean-Code
  
-4.Build Management with Maven
-Maven build the project and then push it to docker , See yml file.
+4.Build Management with Maven #
+    Maven build the project and then push it to docker , See yml file.
 
 
 
