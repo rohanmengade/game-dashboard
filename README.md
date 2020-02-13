@@ -16,6 +16,7 @@ https://github.com/rohanmengade/game-dashboard/wiki/Clean-Code
  
 Build Management with Maven
 
+![alt text](https://github.com/rohanmengade/game-dashboard/blob/master/Maven.PNG)
 
 Maven build the project and then push it to docker , See yml file.
 
