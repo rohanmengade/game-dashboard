@@ -21,16 +21,19 @@ Build Management with Maven
 
 ![alt text](https://github.com/rohanmengade/game-dashboard/blob/master/Maven.PNG)
 
-Maven build the project and then push it to docker , See yml file.
+  Maven build the project and then push it to docker , See yml file.
 
 
-Integrate some nice Unit-Tests in your Code to be integrated in the Build
+Unit Tests
+![alt text](https://github.com/rohanmengade/game-dashboard/blob/master/Test1.PNG)
+
+Continous Delivery
+![alt text](https://github.com/rohanmengade/game-dashboard/blob/master/Build_Travis_Master.PNG)
 
 
-Continous Delivery (show me your pipeline in e.g. Jenkins, Travis-CI, Circle-CI, etc.)
+IDE IntelliJ. 
+What are your favourite Key-Shortcuts?
 
-
-Use a good IDE and get fluent with it as e.g. IntelliJ. What are your favourite Key-Shortcuts?!
 
 
 DSL (Create a small DSL Demo example snippet in your code even if it does not contribute to your project)
