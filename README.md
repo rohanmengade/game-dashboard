@@ -15,7 +15,7 @@ https://github.com/rohanmengade/game-dashboard/wiki/Clean-Code
 Build Management with Maven
     
 Maven build the project and then push it to docker , See yml file.
-![Image description](MAVEN)
+![Maven build](MAVEN.png)
 
 Integrate some nice Unit-Tests in your Code to be integrated in the Build
 
