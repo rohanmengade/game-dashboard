@@ -13,8 +13,7 @@
 https://github.com/rohanmengade/game-dashboard/wiki/Clean-Code
  
 4.Build Management with Maven
-
-See Travis file
+Maven build the project and then push it to docker , See yml file.
 
 
 
