@@ -1,56 +1,24 @@
-# Game Dashboard For Competitor Analysis
+Welcome to the game-dashboard wiki!
 
-
-###########################################################################
-
-UML
-
-
-Metrics
-
-[![GameDashboard](http://localhost:9000/api/project_badges/quality_gate?project=com.game.dashboard%3Agame-dashboard)](http://localhost:9000/dashboard?id=com.game.dashboard%3Agame-dashboard)
-
-![alt text](https://github.com/rohanmengade/game-dashboard/blob/master/Sonarcube_Screenshot.PNG)
-
-
-Clean Code Development
-
-https://github.com/rohanmengade/game-dashboard/wiki/Clean-Code
- 
-Build Management with Maven
-
-![alt text](https://github.com/rohanmengade/game-dashboard/blob/master/Maven.PNG)
-
-  Maven build the project and then push it to docker , See yml file.
-
-
-Unit Tests
-
-
-![alt text](https://github.com/rohanmengade/game-dashboard/blob/master/Test1.PNG)
-
-Continous Delivery
-![alt text](https://github.com/rohanmengade/game-dashboard/blob/master/Build_Travis_Master.PNG)
-
-
-IDE IntelliJ. 
-What are your favourite Key-Shortcuts?
-
-
-
-DSL (Create a small DSL Demo example snippet in your code even if it does not contribute to your project)
-
-
-Functional Programming (prove that you have covered all functional definitions in your code as
-
-
-
-only final data structures
-(mostly) side effect free functions
-the use of higher order functions
-functions as parameters and return values
-use clojures / anonymous functions
-
+Prerequisites
+Java 11
+mysql 5.7
+Dependencies
+Spring Boot 2.2.1
+Travis-CI
+Docker
+Junit5
+Build
+mvn clean package
+Build Docker Image
+docker build -t rohan/game-dashboard:tagName .
+Run with Intellij Idea
+Import Project as a maven to IDE
+Build Project
+Download Envfile plugin (Preferences -> Plugins -> search for "envfile")
+Add Spring Boot Run Configuration
+Run/Debug Configurations -> EnvFile -> Click on + -> Add default.env file which is located on prospect-forwarder/ folder
+Run Game Dashboard app
 
 
 
