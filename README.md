@@ -33,7 +33,8 @@ docker build -t rohan/game-dashboard:tagName .
 
 
 2. Metrics
-http://localhost:9000/dashboard?id=com.game.dashboard%3Agame-dashboard
+[![Quality gate](http://localhost:9000/api/project_badges/quality_gate?project=com.game.dashboard%3Agame-dashboard)](http://localhost:9000/dashboard?id=com.game.dashboard%3Agame-dashboard)
+
 
 
 
