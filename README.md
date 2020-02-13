@@ -1,5 +1,5 @@
-Welcome to the game-dashboard wiki!
 
+Wiki
 Prerequisites
     Java 11
     mysql 5.7
