@@ -33,6 +33,7 @@ docker build -t rohan/game-dashboard:tagName .
 
 
 2. Metrics
-http://localhost:9000/api/project_badges/measure?project=com.game.dashboard%3Agame-dashboard&metric=alert_status
+http://localhost:9000/dashboard?id=com.game.dashboard%3Agame-dashboard
+
 
 
