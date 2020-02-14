@@ -1,5 +1,7 @@
 Complete Documentation is in Wiki file
 
+[Wiki](https://github.com/rohanmengade/game-dashboard/wiki/Complete-Documentation-of-Project)
+
 Prerequisites
 
 Java 11
