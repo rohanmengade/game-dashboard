@@ -1,0 +1,14 @@
+
+Input
+http://localhost:9090/
+
+
+Final output
+http://localhost:3000/d/3AJQXs8Zk/gamedashboard?orgId=1
+
+
+sonarqube
+http://localhost:9000/dashboard?id=com.game.dashboard%3Agame-dashboard
+
+travis
+https://travis-ci.com/rohanmengade/game-dashboard/builds/148098608
