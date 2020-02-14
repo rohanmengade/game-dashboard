@@ -1,6 +1,6 @@
-Complete Documentation is in Wiki file
+Complete Documentation is in following Wiki file
 
-[Wiki](https://github.com/rohanmengade/game-dashboard/wiki/Complete-Documentation-of-Project)
+[Complete Documentation of GamesDashboard](https://github.com/rohanmengade/game-dashboard/wiki/Complete-Documentation-of-Project)
 
 Prerequisites
 
